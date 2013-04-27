@@ -1,0 +1,34 @@
+// Place all the styles related to the screens controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.headcontainer
+{
+	
+	border-bottom:solid 1px silver;
+	background-color: #04677A;
+	height: 40px;
+	line-height: 20px;
+	font-size: 12px;
+	font-family: arial;
+
+}
+.headcontainer li 
+{
+	padding: 10px;
+	float: left;
+	color: white;
+	list-style: none;
+
+}
+.headcontainer .link
+{
+	color: white;
+	text-decoration: none;
+}
+.headcontainer .link:hover
+{
+	color:yellow;
+	cursor: pointer;
+}
